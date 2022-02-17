@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="./css/navi.css">
+</head>
+<body>
+<!--导航-->  <!--inverted 翻转颜色  本来默认是白色的，翻转相对的黑色   segment 出现线框-->
+<nav class="ui inverted segment m-padding-tb-mini">
+    <div>
+        <div class="ui inverted secondary menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <!--以下的icon都是上面这个链接https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css导入的-->
+            <a href="#" class="item"><i class="home icon"></i>首页</a>
+            <a href="#" class="item"><i class="sort icon"></i>分类</a>
+            <a href="#" class="item"><i class="tags icon"></i>标签</a>
+            <a href="#" class="item"><i class="info icon"></i>关于我</a>
+            <div class="right item">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" placeholder="Search....">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!--中间内容-->
+<div class="m-padding-tb-huge">
+    <div class="ui m-container">
+        <div class="ui grid">
+            <div class="eleven wide column"><!--文章内容-->
+                <!--博客标题-->
+                <div class="ui top attached segment">
+                    <div class="ui middle aligned two column grid">
+                        <div class="column">
+                            <h2 class="ui brown header">博客</h2>
+                        </div>
+                        <div class="right aligned column">
+                            共 <h2 class="ui orange header m-inline-block m-text-spaced">14</h2>  篇
+                        </div>
+                    </div>
+                </div>
+                <!--博客内容-->
+                <div class="ui attached segment">
+                    <div class="ui padded virtical segment m-padding-tb">
+                        <div class="ui grid">
+                            <div class="ui eleven wide column">
+                                <h3 class="ui header">禅与摩托车维修艺术</h3>
+                                <p class="m-text">&ensp;&ensp;在一个青年斐德洛研修科学技术与西方经典，寻求自我的解脱，以及探寻生命的意义的过程相互穿插。一路上父亲以一场哲学肖陶扩的形式，将见到的自然景色，野外露营的经历，夜晚旅店的谈话，机车修护技术等等日常生活与西方从苏格拉底以来的理性哲学的深入浅出的阐述与评论相结合...</p>
+                                <div class="ui grid">
+                                    <div class="twelve wide column">
+                                        <div class="ui horizontal link list">
+                                            <div class="item">
+                                                <img src="./images/nior.png" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">X先生</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2017-10-01
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i>1212
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned four wide column">
+                                        <a href="#" target="_blank" class="ui teal basic m-padding-small label m-inline-block">详 情</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui five wide m-padding-tb-huge column">
+                                <a href="#" target="_blank">
+                                    <img src="./images/nior.png" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--博客底部-->
+                <div class="ui bottom attached segment">
+                    <div class="ui middle aligned two column grid">
+                        <div class="column">
+                            <a href="" class="ui mini teal basic button">上一页</a>
+                        </div>
+                        <div class="column right aligned">
+                            <a href="" class="ui mini teal basic button">下一页</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="five wide column"><!--列表-->
+                <div class="ui segment"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--底部-->
+<footer class="ui inverted vertical segment m-padding-tb-massive">
+    <div class="ui center aligned m-container">
+        <div class="ui inverted divided grid">
+            <div class="four wide column">
+                <img src="./images/wechat.jpg" class="ui rounded image" alt="" style="width: 110px;">
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">adad</a>
+                    <a href="#" class="item">ad2</a>
+                    <a href="#" class="item">3</a>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">关于我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Email：1104749258@qq.com</a>
+                    <a href="#" class="item">QQ：1104749258</a>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header">Blog</h4>
+                <p class="m-text-thin m-text-spaced m-padding-tb-mini">
+                    这是我的个人博客，会分享我所感兴趣的所有事，希望能给大家带来欢乐
+                </p>
+            </div>
+        </div>
+        <div class="ui inverted section divider">
+            <p class="m-text-thin m-text-spaced m-padding-tb-mini">Copyright © 2022 Fermi Designed by Fermi</p>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+</body>
+</html>
