@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="./css/navi.css">
 </head>
 <body>
-<!--导航-->  <!--inverted 翻转颜色  本来默认是白色的，翻转相对的黑色   segment 出现线框-->
+<!--导航-->  <!--inverted 翻转颜色  本来默认是白色的，翻转相对的黑色   segment 出现线框  stackable 堆叠，把图层里的内容跟着页面大小变化而变化，适配于手机-->
 <nav class="ui inverted segment m-padding-tb-mini">
     <div>
-        <div class="ui inverted secondary menu">
+        <div class="ui inverted secondary stackable menu">
             <h2 class="ui teal header item">Blog</h2>
             <!--以下的icon都是上面这个链接https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css导入的-->
             <a href="#" class="item"><i class="home icon"></i>首页</a>
@@ -31,7 +31,8 @@
 <!--中间内容-->
 <div class="m-padding-tb-huge">
     <div class="ui m-container">
-        <div class="ui grid">
+        <div class="ui stackable grid">
+            <!--左边博客列表-->
             <div class="eleven wide column"><!--文章内容-->
                 <!--博客标题-->
                 <div class="ui top attached segment">
@@ -47,7 +48,231 @@
                 <!--博客内容-->
                 <div class="ui attached segment">
                     <div class="ui padded virtical segment m-padding-tb">
-                        <div class="ui grid">
+                        <div class="ui mobile reversed stackable grid">
+                            <div class="ui eleven wide column">
+                                <h3 class="ui header">禅与摩托车维修艺术</h3>
+                                <p class="m-text">&ensp;&ensp;在一个青年斐德洛研修科学技术与西方经典，寻求自我的解脱，以及探寻生命的意义的过程相互穿插。一路上父亲以一场哲学肖陶扩的形式，将见到的自然景色，野外露营的经历，夜晚旅店的谈话，机车修护技术等等日常生活与西方从苏格拉底以来的理性哲学的深入浅出的阐述与评论相结合...</p>
+                                <div class="ui grid">
+                                    <div class="twelve wide column">
+                                        <div class="ui horizontal link list">
+                                            <div class="item">
+                                                <img src="./images/nior.png" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">X先生</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2017-10-01
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i>1212
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned four wide column">
+                                        <a href="#" target="_blank" class="ui teal basic m-padding-small label m-inline-block">详 情</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui five wide m-padding-tb-huge column">
+                                <a href="#" target="_blank">
+                                    <img src="./images/nior.png" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded virtical segment m-padding-tb">
+                        <div class="ui mobile reversed stackable grid">
+                            <div class="ui eleven wide column">
+                                <h3 class="ui header">禅与摩托车维修艺术</h3>
+                                <p class="m-text">&ensp;&ensp;在一个青年斐德洛研修科学技术与西方经典，寻求自我的解脱，以及探寻生命的意义的过程相互穿插。一路上父亲以一场哲学肖陶扩的形式，将见到的自然景色，野外露营的经历，夜晚旅店的谈话，机车修护技术等等日常生活与西方从苏格拉底以来的理性哲学的深入浅出的阐述与评论相结合...</p>
+                                <div class="ui grid">
+                                    <div class="twelve wide column">
+                                        <div class="ui horizontal link list">
+                                            <div class="item">
+                                                <img src="./images/nior.png" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">X先生</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2017-10-01
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i>1212
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned four wide column">
+                                        <a href="#" target="_blank" class="ui teal basic m-padding-small label m-inline-block">详 情</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui five wide m-padding-tb-huge column">
+                                <a href="#" target="_blank">
+                                    <img src="./images/nior.png" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded virtical segment m-padding-tb">
+                        <div class="ui mobile reversed stackable grid">
+                            <div class="ui eleven wide column">
+                                <h3 class="ui header">禅与摩托车维修艺术</h3>
+                                <p class="m-text">&ensp;&ensp;在一个青年斐德洛研修科学技术与西方经典，寻求自我的解脱，以及探寻生命的意义的过程相互穿插。一路上父亲以一场哲学肖陶扩的形式，将见到的自然景色，野外露营的经历，夜晚旅店的谈话，机车修护技术等等日常生活与西方从苏格拉底以来的理性哲学的深入浅出的阐述与评论相结合...</p>
+                                <div class="ui grid">
+                                    <div class="twelve wide column">
+                                        <div class="ui horizontal link list">
+                                            <div class="item">
+                                                <img src="./images/nior.png" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">X先生</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2017-10-01
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i>1212
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned four wide column">
+                                        <a href="#" target="_blank" class="ui teal basic m-padding-small label m-inline-block">详 情</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui five wide m-padding-tb-huge column">
+                                <a href="#" target="_blank">
+                                    <img src="./images/nior.png" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded virtical segment m-padding-tb">
+                        <div class="ui mobile reversed stackable grid">
+                            <div class="ui eleven wide column">
+                                <h3 class="ui header">禅与摩托车维修艺术</h3>
+                                <p class="m-text">&ensp;&ensp;在一个青年斐德洛研修科学技术与西方经典，寻求自我的解脱，以及探寻生命的意义的过程相互穿插。一路上父亲以一场哲学肖陶扩的形式，将见到的自然景色，野外露营的经历，夜晚旅店的谈话，机车修护技术等等日常生活与西方从苏格拉底以来的理性哲学的深入浅出的阐述与评论相结合...</p>
+                                <div class="ui grid">
+                                    <div class="twelve wide column">
+                                        <div class="ui horizontal link list">
+                                            <div class="item">
+                                                <img src="./images/nior.png" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">X先生</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2017-10-01
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i>1212
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned four wide column">
+                                        <a href="#" target="_blank" class="ui teal basic m-padding-small label m-inline-block">详 情</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui five wide m-padding-tb-huge column">
+                                <a href="#" target="_blank">
+                                    <img src="./images/nior.png" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded virtical segment m-padding-tb">
+                        <div class="ui mobile reversed stackable grid">
+                            <div class="ui eleven wide column">
+                                <h3 class="ui header">禅与摩托车维修艺术</h3>
+                                <p class="m-text">&ensp;&ensp;在一个青年斐德洛研修科学技术与西方经典，寻求自我的解脱，以及探寻生命的意义的过程相互穿插。一路上父亲以一场哲学肖陶扩的形式，将见到的自然景色，野外露营的经历，夜晚旅店的谈话，机车修护技术等等日常生活与西方从苏格拉底以来的理性哲学的深入浅出的阐述与评论相结合...</p>
+                                <div class="ui grid">
+                                    <div class="twelve wide column">
+                                        <div class="ui horizontal link list">
+                                            <div class="item">
+                                                <img src="./images/nior.png" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">X先生</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2017-10-01
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i>1212
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned four wide column">
+                                        <a href="#" target="_blank" class="ui teal basic m-padding-small label m-inline-block">详 情</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui five wide m-padding-tb-huge column">
+                                <a href="#" target="_blank">
+                                    <img src="./images/nior.png" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded virtical segment m-padding-tb">
+                        <div class="ui mobile reversed stackable grid">
+                            <div class="ui eleven wide column">
+                                <h3 class="ui header">禅与摩托车维修艺术</h3>
+                                <p class="m-text">&ensp;&ensp;在一个青年斐德洛研修科学技术与西方经典，寻求自我的解脱，以及探寻生命的意义的过程相互穿插。一路上父亲以一场哲学肖陶扩的形式，将见到的自然景色，野外露营的经历，夜晚旅店的谈话，机车修护技术等等日常生活与西方从苏格拉底以来的理性哲学的深入浅出的阐述与评论相结合...</p>
+                                <div class="ui grid">
+                                    <div class="twelve wide column">
+                                        <div class="ui horizontal link list">
+                                            <div class="item">
+                                                <img src="./images/nior.png" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">X先生</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2017-10-01
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i>1212
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned four wide column">
+                                        <a href="#" target="_blank" class="ui teal basic m-padding-small label m-inline-block">详 情</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui five wide m-padding-tb-huge column">
+                                <a href="#" target="_blank">
+                                    <img src="./images/nior.png" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded virtical segment m-padding-tb">
+                        <div class="ui mobile reversed stackable grid">
+                            <div class="ui eleven wide column">
+                                <h3 class="ui header">禅与摩托车维修艺术</h3>
+                                <p class="m-text">&ensp;&ensp;在一个青年斐德洛研修科学技术与西方经典，寻求自我的解脱，以及探寻生命的意义的过程相互穿插。一路上父亲以一场哲学肖陶扩的形式，将见到的自然景色，野外露营的经历，夜晚旅店的谈话，机车修护技术等等日常生活与西方从苏格拉底以来的理性哲学的深入浅出的阐述与评论相结合...</p>
+                                <div class="ui grid">
+                                    <div class="twelve wide column">
+                                        <div class="ui horizontal link list">
+                                            <div class="item">
+                                                <img src="./images/nior.png" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">X先生</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2017-10-01
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i>1212
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned four wide column">
+                                        <a href="#" target="_blank" class="ui teal basic m-padding-small label m-inline-block">详 情</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui five wide m-padding-tb-huge column">
+                                <a href="#" target="_blank">
+                                    <img src="./images/nior.png" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui padded virtical segment m-padding-tb">
+                        <div class="ui mobile reversed stackable grid">
                             <div class="ui eleven wide column">
                                 <h3 class="ui header">禅与摩托车维修艺术</h3>
                                 <p class="m-text">&ensp;&ensp;在一个青年斐德洛研修科学技术与西方经典，寻求自我的解脱，以及探寻生命的意义的过程相互穿插。一路上父亲以一场哲学肖陶扩的形式，将见到的自然景色，野外露营的经历，夜晚旅店的谈话，机车修护技术等等日常生活与西方从苏格拉底以来的理性哲学的深入浅出的阐述与评论相结合...</p>
@@ -79,6 +304,7 @@
                         </div>
                     </div>
 
+
                 </div>
 
                 <!--博客底部-->
@@ -93,14 +319,120 @@
                     </div>
                 </div>
             </div>
-            <div class="five wide column"><!--列表-->
-                <div class="ui segment"></div>
+            <!--右边的Top-->
+            <div class="five wide column">
+
+                <!--分类-->
+                <div class="ui segments">
+                    <div class="ui secondary segment">
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <i class="sort amount down icon"></i>分类
+                            </div>
+                            <div class="right aligned column">
+                                <a href="#" target="_blank" class="right aligned">more <i class="angle double right icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui teal segment">
+                        <div class="ui fluid vertical menu">
+                            <a href="#" class="item">
+                                新鲜事
+                                <div class="ui teal basic label">13</div>
+                            </a>
+                            <a href="#" class="item">
+                                学习日志
+                                <div class="ui teal basic label">13</div>
+                            </a>
+                            <a href="#" class="item">
+                                思想感想
+                                <div class="ui teal basic label">13</div>
+                            </a>
+                            <a href="#" class="item">
+                                认知升级
+                                <div class="ui teal basic label">13</div>
+                            </a>
+                            <a href="#" class="item">
+                                干货
+                                <div class="ui teal basic label">13</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--标签-->
+                <div class="m-margin-top-small ui segments">
+                    <div class="ui secondary segment">
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <i class="tags icon"></i>标签
+                            </div>
+                            <div class="right aligned column">
+                                <a href="#" target="_blank" class="right aligned">more <i class="angle double right icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui teal segment">
+                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">二次元<div class="detail">22</div></a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">IT<div class="detail">22</div></a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label  m-margin-tb-tiny">动漫<div class="detail">22</div></a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label  m-margin-tb-tiny">生活<div class="detail">22</div></a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label  m-margin-tb-tiny">百科<div class="detail">22</div></a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label  m-margin-tb-tiny">影视<div class="detail">22</div></a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label  m-margin-tb-tiny">历史<div class="detail">22</div></a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label  m-margin-tb-tiny">两性<div class="detail">22</div></a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label  m-margin-tb-tiny">哲学<div class="detail">22</div></a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label  m-margin-tb-tiny">故事会<div class="detail">22</div></a>
+
+
+                    </div>
+                </div>
+
+                <!--最新推荐-->
+                <div class="m-margin-top-small ui segments">
+                    <div class="ui secondary segment">
+                        <div class="column">
+                            <i class="bookmark icon"></i>最新推荐
+                        </div>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#" target="_blank">禅与摩托车维修艺术</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#" target="_blank">老亚撒西了</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#" target="_blank">无伤过活死人囚笼</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#" target="_blank">听君一席话，如听一席话</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#" target="_blank">女生24岁正在考编，要不要嫁给县城无编制自营饭店男</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#" target="_blank">现在的年轻人为什么那么注重钱</a>
+                    </div>
+
+
+
+                </div>
+                <!--二维码-->
+                <h2 class="m-margin-top-small ui horizontal divider header">扫码关注我</h2>
+                <div class="ui centered card" style="width: 15em">
+                    <img src="./images/wechat.jpg" alt="" class="ui round image">
+                </div>
             </div>
+
+
+
+
+
         </div>
     </div>
 
 </div>
-<br>
 <br>
 <br>
 <br>
@@ -123,9 +455,11 @@
             <div class="four wide column">
                 <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
                 <div class="ui inverted link list">
-                    <a href="#" class="item">adad</a>
-                    <a href="#" class="item">ad2</a>
-                    <a href="#" class="item">3</a>
+                    <a href="#" class="item">禅与摩托车维修艺术</a>
+                    <a href="#" class="item">无伤过活死人囚笼</a>
+                    <a href="#" class="item">现在的年轻人为什么那么注重钱</a>
+                    <a href="#" class="item">內地抗疫專家抵港 特首：</a>
+                    <a href="#" class="item">疫情升温 三星苏州厂被封 数千员工</a>
                 </div>
             </div>
             <div class="four wide column">
@@ -138,12 +472,12 @@
             <div class="four wide column">
                 <h4 class="ui inverted header">Blog</h4>
                 <p class="m-text-thin m-text-spaced m-padding-tb-mini">
-                    这是我的个人博客，会分享我所感兴趣的所有事，希望能给大家带来欢乐
+                    这是我的个人博客，我会发表我在生活中的所闻所想，希望能给大家带来欢乐
                 </p>
             </div>
         </div>
         <div class="ui inverted section divider">
-            <p class="m-text-thin m-text-spaced m-padding-tb-mini">Copyright © 2022 Fermi Designed by Fermi</p>
+            <p class="m-text m-text-center m-text-spaced m-padding-tb-mini">Copyright © 2022 Fermi Designed by Fermi</p>
         </div>
 
     </div>
