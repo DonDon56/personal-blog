@@ -9,16 +9,17 @@
 </head>
 <body>
 <!--导航-->  <!--inverted 翻转颜色  本来默认是白色的，翻转相对的黑色   segment 出现线框  stackable 堆叠，把图层里的内容跟着页面大小变化而变化，适配于手机-->
-<nav class="ui inverted segment m-padding-tb-mini">
+<nav class="ui inverted segment m-padding-tb-mini m-opacity">
     <div>
         <div class="ui inverted secondary stackable menu">
             <h2 class="ui teal header item">Blog</h2>
             <!--以下的icon都是上面这个链接https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css导入的-->
-            <a href="#" class="item"><i class="home icon"></i>首页</a>
-            <a href="#" class="item"><i class="sort icon"></i>分类</a>
-            <a href="#" class="item"><i class="tags icon"></i>标签</a>
-            <a href="#" class="item"><i class="info icon"></i>关于我</a>
-            <div class="right item">
+            <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="sort icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i>归档</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+            <div class="m-item right item m-mobile-hide">
                 <div class="ui icon inverted transparent input">
                     <input type="text" placeholder="Search....">
                     <i class="search link icon"></i>
@@ -26,10 +27,14 @@
             </div>
         </div>
     </div>
+    <a href="#" class="ui menu toggle icon black m-top-right button m-top-right m-mobile-show">
+        <!--sidebar 是jQuery按钮，一个知识点-->
+        <i class="sidebar icon"></i>
+    </a>
 </nav>
 
 <!--中间内容-->
-<div class="m-padding-tb-huge">
+<div class="m-padding-tb-huge m-opacity-mini">
     <div class="ui m-container">
         <div class="ui stackable grid">
             <!--左边博客列表-->
@@ -446,11 +451,15 @@
 <br>
 <br>
 <!--底部-->
-<footer class="ui inverted vertical segment m-padding-tb-massive">
-    <div class="ui center aligned m-container">
-        <div class="ui inverted divided grid">
+<footer class="ui m-opacity-mini inverted vertical segment m-padding-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
             <div class="four wide column">
-                <img src="./images/wechat.jpg" class="ui rounded image" alt="" style="width: 110px;">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="./images/wechat.jpg" class="ui rounded image" alt="" style="width: 130px;">
+                    </div>
+                </div>
             </div>
             <div class="four wide column">
                 <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
@@ -476,7 +485,7 @@
                 </p>
             </div>
         </div>
-        <div class="ui inverted section divider">
+        <div class="ui m-opacity-massive inverted section divider">
             <p class="m-text m-text-center m-text-spaced m-padding-tb-mini">Copyright © 2022 Fermi Designed by Fermi</p>
         </div>
 
@@ -486,5 +495,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    })
+</script>
 </body>
 </html>
