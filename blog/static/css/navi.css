@@ -44,6 +44,11 @@ body{
     padding-bottom: 5em !important;
 }
 
+.m-padding-lr{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+
 /*------------- margin------------------*/
 .m-margin-top-small{
     margin-top: 4em !important;
@@ -88,6 +93,10 @@ body{
     margin-top: 5em !important;
     margin-bottom: 5em !important;
 }
+.m-margin-bottom-small{
+    margin-bottom: 0.5em !important;
+}
+
 
 /*------------- opacity 不透明度------------------*/
 .m-opacity-mini{
@@ -166,6 +175,14 @@ body{
     }
     .m-mobile-show{
         display: block !important;
+    }
+    .m-padding-lr-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+    .m-mobile-wide{
+        width: 100%;
     }
 
 }
