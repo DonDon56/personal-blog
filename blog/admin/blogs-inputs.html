@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>管理后台</title>
+    <title>博客发布</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="../static/css/navi.css">
 </head>
@@ -43,8 +43,8 @@
     <div class="ui bottom inverted attached m-opacity-mini pointing menu">
         <div class="ui container">
             <div class="right menu">
-                <a href="#" class="item">发布</a>
-                <a href="#" class="teal active item">列表</a>
+                <a href="#" class="teal active item">发布</a>
+                <a href="#" class="item">列表</a>
             </div>
         </div>
     </div>
@@ -53,81 +53,23 @@
 <!--中间内容-->
 <div class="m-padding-tb-huge m-container-small m-opacity-mini">
     <div class="ui container">
-        <form action="#" method="post" class="ui segment form">
-            <div class="inline fields">
-                <div class="field">
-                    <input type="text" name="title" placeholder="标题">
-                </div>
-                <div class="field">
-                    <div class="ui selection dropdown">
-                        <input type="hidden" name="type">
+        <form action="#" method="post" class="ui form">
+            <div class="field">
+                <div class="ui left labeled input">
+                    <div class="ui selection compact teal basic dropdown label">
+                        <input type="hidden" value="原创">
                         <i class="dropdown icon"></i>
-                        <div class="default text">分类</div>
+                        <div class="default text">原创</div>
                         <div class="menu">
-                            <div class="item" data-value="0">    </div>
-                            <div class="item" data-value="1">错误日志</div>
-                            <div class="item" data-value="2">开发者手册</div>
+                            <div class="item" data-value="原创">原创</div>
+                            <div class="item" data-value="转载">转载</div>
+                            <div class="item" data-value="翻译">翻译</div>
                         </div>
                     </div>
-                </div>
-                <div class="field">
-                    <div class="ui checkbox">
-                        <input type="checkbox" name="recommend">
-                        <label for="recommend">推荐</label>
-                    </div>
-                </div>
-                <div class="field">
-                    <button class="ui mini teal button"><i class="search icon"></i>搜索</button>
+                    <input type="text" name="title" placeholder="标题">
                 </div>
             </div>
         </form>
-
-        <table class="ui celled table">
-            <thead class="m-text-center">
-            <tr>
-                <th>编号</th>
-                <th>标题</th>
-                <th>类型</th>
-                <th>推荐</th>
-                <th>更新时间</th>
-                <th>操作</th>
-            </tr>
-            </thead>
-            <tbody class="m-text-center">
-              <tr>
-                  <td>1</td>
-                  <td>摩托车</td>
-                  <td>详情</td>
-                  <td>是</td>
-                  <td>是2022-02-25 09:12</td>
-                  <td>
-                      <a href="#" class="ui mini teal basic button">编辑</a>
-                      <a href="#" class="ui mini orange basic button">删除</a>
-                  </td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                  <th colspan="6">
-                      <div class="ui pagination menu">
-                          <!--<a class="icon item">
-                              <i class="left chevron icon"></i>
-                          </a>
-                          <a class="item">1</a>
-                          <a class="item">2</a>
-                          <a class="item">3</a>
-                          <a class="item">4</a>
-                          <a class="icon item">
-                              <i class="right chevron icon"></i>
-                          </a>-->
-                          <a class="item">上一页</a>
-                          <a class="item">下一页</a>
-                      </div>
-                      <a href="" class="ui right floated teal mini basic button">新增</a>
-                  </th>
-              </tr>
-            </tfoot>
-        </table>
     </div>
 </div>
 <br>
