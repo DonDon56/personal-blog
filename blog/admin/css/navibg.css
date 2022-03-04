@@ -1,0 +1,199 @@
+body{
+    background: url("../images/bg2.jpg");
+}
+
+
+
+/*------------- padding------------------*/
+.m-padding-mini{
+    padding: 0.2em !important;
+}
+.m-padding-small{
+    padding: 0.4em !important;
+}
+
+.m-padding-tb-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.m-padding-tb-tiny{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.m-padding-tb-small{
+    padding-top: 0.6em !important;
+    padding-bottom: 0.6em !important;
+}
+.m-padding-tb{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+.m-padding-tb-large{
+    padding-top: 2em !important;
+    padding-bottom: 2m !important;
+}
+.m-padding-tb-big{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.m-padding-tb-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4m !important;
+}
+.m-padding-tb-massive{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+
+.m-padding-lr{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+
+/*------------- margin------------------*/
+.m-margin-top-small{
+    margin-top: 4em !important;
+}
+
+.m-margin-mini{
+    margin: 0.2em !important;
+}
+.m-margin-small{
+    margin: 0.4em !important;
+}
+
+.m-margin-tb-mini{
+    margin-top: 0.2em !important;
+    margin-bottom: 0.2em !important;
+}
+.m-margin-tb-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+.m-margin-tb-small{
+    margin-top: 0.6em !important;
+    margin-bottom: 0.6em !important;
+}
+.m-marginpadding-tb{
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+.m-margin-tb-large{
+    marginpadding-top: 2em !important;
+    margin-bottom: 2m !important;
+}
+.m-margin-tb-big{
+    margin-top: 3em !important;
+    margin-bottom: 3em !important;
+}
+.m-margin-tb-huge{
+    margin-top: 4em !important;
+    margin-bottom: 4m !important;
+}
+.m-margin-tb-massive{
+    margin-top: 5em !important;
+    margin-bottom: 5em !important;
+}
+.m-margin-bottom-small{
+    margin-bottom: 0.5em !important;
+}
+
+
+/*------------- opacity 不透明度------------------*/
+.m-opacity-mini{
+    opacity: 0.8 !important;
+}
+.m-opacity{
+    opacity: 0.5 !important;
+}
+.m-opacity-massive{
+    opacity: 0.2 !important;
+}
+
+
+/*-------------position------------------*/
+.m-top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+/*------------- text------------------*/
+.m-text{
+    font-weight: 300 !important;
+    text-transform:capitalize;
+    letter-spacing: 1px !important;
+    line-height: 1.8;
+}
+
+.m-text-center{
+    text-align: center;
+}
+
+.m-text-thin{
+    font-weight: 300 !important;
+    text-transform:capitalize;
+}
+
+.m-text-spaced{
+    letter-spacing: 1px !important;
+}
+
+.m-text-lined{
+    line-height: 1.8;
+}
+
+
+/*display*/
+.m-inline-block{
+    display: inline-block;
+}
+
+/**********display**************/
+.m-container{
+    max-width: 108em !important;
+    margin: auto !important;
+}
+.m-container-small{
+    max-width: 72em !important;
+    margin: auto !important;
+}
+.m-container-mini{
+    max-width: 48em !important;
+    margin: auto !important;
+}
+
+/****shadow****/
+.m-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,2) !important;
+}
+
+/****移动端*****/
+.m-mobile-show{
+    display: none !important;
+}
+
+/****移动端的显示一定要放在css文件的最后面*****/
+@media screen and (max-width:768px){
+    .m-mobile-hide{
+        display: none !important;
+    }
+    .m-mobile-show{
+        display: block !important;
+    }
+    .m-padding-lr-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+    .m-mobile-clear{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .m-mobile-wide{
+        width: 100%;
+    }
+
+}
